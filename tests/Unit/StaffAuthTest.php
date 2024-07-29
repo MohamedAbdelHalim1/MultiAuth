@@ -6,7 +6,7 @@ use Tests\TestCase;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use App\Models\Staff;
-use Database\Seeders\staffTableSeeder;
+use Database\Seeders\StaffTableSeeder;
 
 class StaffAuthTest extends TestCase
 {
