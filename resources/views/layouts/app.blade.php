@@ -10,6 +10,7 @@
         .navbar-logo {
             height: 40px; /* Adjust as needed */
         }
+
     </style>
 </head>
 <body>
@@ -42,6 +43,7 @@
     <div class="container mt-5">
         @yield('content')
     </div>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>

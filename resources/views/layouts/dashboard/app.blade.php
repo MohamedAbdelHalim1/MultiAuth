@@ -54,7 +54,7 @@
         .sidenav .sidenav-header img {
             width: 30px;
             height: 30px;
-            margin-right: 10px; /* Reduce space between image and text */
+            margin-right: 10px;
         }
         .sidenav .sidenav-header h5 {
             font-size: 20px;
@@ -62,6 +62,17 @@
         }
         .sidenav .sidenav-header:hover {
             color: #007bff;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            border-top: 1px solid #dee2e6;
+            margin-left: 250px;
+            z-index: 100;
         }
     </style>
 </head>
@@ -114,8 +125,15 @@
         @yield('content')
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <div class="footer">
+        &copy; {{ date('Y') }} Software Eng.Halim. All rights reserved. | Contact: <a href="tel:01021601747">01021601747</a> | Email: <a href="mailto:mohamedabdelhalim2804@gmail.com">mohamedabdelhalim2804@gmail.com</a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.x.x/dist/alpine.min.js" defer></script>
+
 </body>
 </html>
